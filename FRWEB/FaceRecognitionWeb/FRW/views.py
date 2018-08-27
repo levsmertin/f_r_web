@@ -41,4 +41,4 @@ def add_photo(request):
             print (images_path_list)
         else:
             print(form.errors)
-    return render(request, 'FRW/main_page.html', locals())
+    return render(request, 'FRW/landing.html', locals())
